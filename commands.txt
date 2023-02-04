@@ -1,0 +1,18 @@
+ Id CommandLine
+  -- -----------
+   1 npx create-react-app --template
+   2 npx create-expo-app --template
+   3 ls
+   4 cd .\facebookauth\
+   5 ls
+   6 npm install --save react-native-fbsdk-next
+   7 npx expo install expo-dev-client
+   8 code .
+   9 eas build --profile development --platform android
+  10 npm install -g eas-cli
+  11 eas build --profile development --platform android
+  12 eas build --profile development --platform android
+  13 eas credentials
+  14 npm install firebase
+  15 eas build --profile development --platform android
+  16 npx expo start --dev-client
