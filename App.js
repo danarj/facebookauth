@@ -73,6 +73,7 @@ export default function App() {
         <Text style={{ fontWeight: "bold", fontSize: 20 }}>
           Welcome !! {user.displayName}
         </Text>
+        <Button title="Sign Out" onPress={signOut} />
       </View>
     </View>
   );

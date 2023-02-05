@@ -16,7 +16,8 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.danarj.facebookauth"
     },
     "android": {
       "adaptiveIcon": {
@@ -39,7 +40,11 @@
         {
           "appID": "4127407154196869",
           "clientToken": "b55d58788ef13380d83532f9e22724d0",
-          "displayName": "itriviaexpo"
+          "displayName": "itriviaexpo",
+          "scheme": "fb4127407154196869",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true
         }
       ]
     ]
